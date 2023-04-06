@@ -7,9 +7,6 @@ Durante 7 dias, é enviado um desafio com lógica de programação utilizando Ja
 ## Tecnologias utilizadas neste projeto:
 <img height="20" src="https://img.shields.io/badge/-HTML5-orange"> <img height="20" src="https://img.shields.io/badge/-JavaScript-yellow">
 
-## Veja o projeto no ar!
-
-
 ## Licença
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
