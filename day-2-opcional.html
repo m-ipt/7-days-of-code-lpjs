@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-2</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('Qual é o seu nome?');
+        var idade = parseInt(prompt('Qual é a sua idade?'));
+        var linguagem = prompt('Qual linguagem de programação você está aprendendo?');
+
+        console.log('Olá ' + nome +', você tem ' + idade + ' anos e já está aprendendo ' + linguagem + '! :)');
+        document.write('Olá ' + nome +', você tem ' + idade + ' anos e já está aprendendo ' + linguagem + '! :)');
+
+        var resposta = parseInt(prompt('Você gosta de estudar ' + linguagem + '? Digite 1 para SIM e 2 para NÃO'));
+
+            if (resposta == 1){
+                console.log('Muito bom! Continue estudando e você terá muito sucesso.');
+                alert('Muito bom! Continue estudando e você terá muito sucesso.');
+            }
+            if (resposta == 2){
+                console.log('Ah, que pena... Já tentou aprender outras linguagens?');
+                alert('Ah, que pena... Já tentou aprender outras linguagens?');
+            }
+    </script>
+</body>
+</html>
